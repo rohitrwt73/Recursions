@@ -8,7 +8,7 @@ public class myRec4 {
         if (n==0 || n ==1){                 //2 base cases
             return n;
         }
-        return fibo(n-1)+fibo(n-1);
+        return fibo(n-1)+fibo(n-2);
 
     }
 }
